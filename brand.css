@@ -1,8 +1,8 @@
 /* ── Brand Colors & Fonts ── */
 :root {
-  --primary:    #f3a38c;   /* warm orange-brown — buttons, headings */
-  --background: #FAEEDA;   /* soft warm beige — page backgrounds */
-  --accent:     #a9d9b6;   /* mint green — highlights */
+  --primary:    #f09b83;   /* warm orange-brown — buttons, headings */
+  --background: #b9e3aa;   /* soft warm beige — page backgrounds */
+  --accent:     #d5fbdf;   /* mint green — highlights */
   --dark:       #413f3f;   /* near-black — body text */
   --white:      #FFFFFF;
 }
@@ -118,7 +118,7 @@ nav {
 
 .section-subtitle {
   font-size: 1.1rem;
-  color: #666;
+  color: #000000;
   margin-bottom: 40px;
 }
 
@@ -158,7 +158,7 @@ nav {
 
 .card p {
   font-size: 0.9rem;
-  color: #666;
+  color: #393939;
 }
 
 /* ── Stats Bar ── */
@@ -202,7 +202,7 @@ nav {
 
 .hero p {
   font-size: 1.15rem;
-  color: #555;
+  color: #55555c;
   margin-bottom: 36px;
 }
 
@@ -223,7 +223,7 @@ nav {
   margin: 0 auto;
   font-size: 1.1rem;
   font-style: italic;
-  color: #444;
+  color: #55555c;
 }
 
 .quote-block cite {
@@ -302,7 +302,7 @@ nav {
 
 .story-card p {
   font-size: 0.88rem;
-  color: #555;
+  color: #55555c;
   font-style: italic;
 }
 
@@ -353,12 +353,12 @@ nav {
 
 .event-info p {
   font-size: 0.9rem;
-  color: #666;
+  color: #55555c;
 }
 
 /* ── Beige Section Background ── */
 .bg-beige {
-  background-color: #f3e4cc;
+  background-color: #fdecdb;
   padding: 64px 40px;
 }
 
@@ -407,6 +407,6 @@ footer .footer-links a:hover {
 
 footer .footer-note {
   font-size: 0.82rem;
-  color: #777;
+  color: #a88f85;
   margin-top: 12px;
 }

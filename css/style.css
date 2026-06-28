@@ -4,7 +4,7 @@
   --primary:    #C06030;   /* warm orange-brown — buttons, headings */
   --background: #FAEEDA;   /* soft warm beige — page backgrounds */
   --accent:     #5DCAA5;   /* mint green — highlights */
-  --dark:       #2D2D2D;   /* near-black — body text */
+  --dark:       #2F1D1C;   /* near-black with a warm red tint — body text */
   --white:      #FFFFFF;
 }
 
@@ -119,7 +119,7 @@ nav {
 
 .section-subtitle {
   font-size: 1.1rem;
-  color: #666;
+  color: var(--dark);
   margin-bottom: 40px;
 }
 
@@ -159,7 +159,7 @@ nav {
 
 .card p {
   font-size: 0.9rem;
-  color: #666;
+  color: var(--dark);
 }
 
 /* ── Stats Bar ── */
@@ -203,7 +203,7 @@ nav {
 
 .hero p {
   font-size: 1.15rem;
-  color: #555;
+  color: var(--dark);
   margin-bottom: 36px;
 }
 
@@ -224,7 +224,7 @@ nav {
   margin: 0 auto;
   font-size: 1.1rem;
   font-style: italic;
-  color: #444;
+  color: var(--dark);
 }
 
 .quote-block cite {
@@ -303,7 +303,7 @@ nav {
 
 .story-card p {
   font-size: 0.88rem;
-  color: #555;
+  color: var(--dark);
   font-style: italic;
 }
 
@@ -354,7 +354,7 @@ nav {
 
 .event-info p {
   font-size: 0.9rem;
-  color: #666;
+  color: var(--dark);
 }
 
 /* ── Beige Section Background ── */
