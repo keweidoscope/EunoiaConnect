@@ -236,6 +236,84 @@ nav {
   font-size: 0.95rem;
 }
 
+.section-spaced {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.section-no-vertical-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.section-center {
+  text-align: center;
+}
+
+.card-emoji {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.narrow-copy {
+  max-width: 700px;
+  margin: 0 0 32px 0;
+}
+
+.narrow-copy--sm {
+  max-width: 680px;
+  margin: 0 0 32px 0;
+}
+
+.text-copy {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--dark);
+}
+
+.text-copy--sm {
+  font-size: 0.88rem;
+}
+
+.text-copy--italic {
+  font-style: italic;
+}
+
+.text-copy--spaced {
+  margin-bottom: 36px;
+}
+
+.text-copy--compact {
+  margin-top: 12px;
+}
+
+.link-primary {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.event-note {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: var(--dark);
+}
+
+.quote-block--spaced {
+  margin-top: 40px;
+}
+
+.card-grid--spaced {
+  margin-bottom: 40px;
+}
+
+.event-date.alt {
+  background-color: #aaa;
+}
+
+.stats-bar-rounded {
+  border-radius: 14px;
+}
+
 /* ── Team Grid ── */
 .team-grid {
   display: grid;
@@ -410,4 +488,58 @@ footer .footer-note {
   font-size: 0.82rem;
   color: #777;
   margin-top: 12px;
+}
+
+/* ── Responsive: Mobile-friendly tweaks ── */
+img, picture, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  nav {
+    padding: 0 20px;
+  }
+  .nav-logo { font-size: 1.2rem; }
+  .nav-links { gap: 14px; }
+  .section { padding: 56px 24px; }
+  .hero { padding: 72px 24px; }
+  .hero h1 { font-size: 2.2rem; }
+  .section-title { font-size: 1.6rem; }
+  .card-grid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    height: auto;
+    padding: 10px 16px;
+  }
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .section { padding: 40px 16px; }
+  .hero { padding: 48px 16px; }
+  .hero h1 { font-size: 1.9rem; }
+  .section-title { font-size: 1.5rem; }
+  .section-subtitle { font-size: 1rem; }
+  .card-grid { grid-template-columns: 1fr; gap: 18px; }
+  .gallery-placeholder { height: 160px; }
+  .team-avatar { width: 80px; height: 80px; font-size: 1.6rem; }
+  .story-card p, .card p, .event-info p, .quote-block, .section-subtitle { color: var(--dark); }
+  .btn { width: 100%; padding: 12px 16px; }
+}
+
+@media (max-width: 420px) {
+  body { font-size: 15px; }
+  .nav-links a { font-size: 0.92rem; }
+  .hero h1 { font-size: 1.7rem; }
+  .section { padding: 32px 12px; }
+  .card { padding: 18px 16px; }
+  .gallery-placeholder { height: 140px; }
 }
